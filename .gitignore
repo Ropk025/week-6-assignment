@@ -1,0 +1,17 @@
+# Ignore system folders
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+*.lnk
+*.dat
+*.regtrans-ms
+*.ini
+# Ignore everything outside this folder
+../../*

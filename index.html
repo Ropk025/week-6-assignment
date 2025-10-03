@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 6 Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="main-title">Interactive Web Page</h1>
+
+  <!-- Form Section -->
+  <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+    
+    <label for="email">Email:</label>
+    <input type="text" id="email" />
+    
+    <button type="submit">Submit</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <!-- Interactive Section 1 -->
+  <section>
+    <button id="toggleBtn">Toggle Message</button>
+    <p id="toggleText" style="display: none;">Hello, this is a toggled message!</p>
+  </section>
+
+  <!-- Interactive Section 2 -->
+  <section>
+    <input type="range" id="slider" min="0" max="100" value="50" />
+    <p>Slider Value: <span id="sliderValue">50</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

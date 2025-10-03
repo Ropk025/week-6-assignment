@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
